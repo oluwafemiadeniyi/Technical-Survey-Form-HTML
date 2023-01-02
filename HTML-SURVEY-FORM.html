@@ -9,12 +9,25 @@
   <body>
     <p id='description'>Thank you for taking the time to help us improve the platform</p>
     <form id='survey-form'>
-      <fieldset>
        <label for='name'>Name <input id='name' name='name' type='text' required placeholder='Enter your Name'/>
        </label>
        <label for='email'>Email <input id='email' name='email' type='email' placeholder='Enter your Email'</label>
-      </fieldset>
-
+       <label for='age'>Age(optional) <input id='age' name='age' type='number' placeholder='Age'/>
+       <label>Which option best describes your current role?
+          <select>
+            <option>Select current role</option>
+            <option value='1'>Student</option>
+            <option value='2'>Full Time job</option>
+            <option value='3'>Full time learner</option>
+            <option value='4'>Prefer not to say</optiion>
+            <option value='5'>Other</option>
+          </select>
+        </label>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        <label for='Definitely' > <input id='Definitely' type='radio' name='recommendation'>Definitely</label>
+        <label for='May be'> <input id='May be' type='radio' name='recommendation'/>May be</label>
+        <label for='Not sure'> <input id='Not sure' type='radio' name='recommendation'/>Not sure</label>
+         
     </form>
   </body>
 </html>
